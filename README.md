@@ -1,6 +1,9 @@
 # spmock
 A customizable spongemock npm module with CLI support.
 
+[![Build Status](https://travis-ci.org/danielsmith4483/spmock.svg?branch=master)](https://travis-ci.org/danielsmith4483/spmock) [![Coverage Status](https://coveralls.io/repos/github/danielsmith4483/spmock/badge.svg?branch=master)](https://coveralls.io/github/danielsmith4483/spmock?branch=master) 
+[![npm version](https://badge.fury.io/js/spmock.svg)](https://badge.fury.io/js/spmock)
+
 ## Installation
 ```sh
 npm install spmock --save
