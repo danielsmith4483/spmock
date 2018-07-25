@@ -9,6 +9,10 @@ export interface IOptions {
  * @returns The spongemockified string.
  */
 export function spmock(inputString: string, options?: IOptions): string {
+    options = options || {
+        bias: 0.5
+    };
+
     return inputString.split('').map((el, i) => {
         return i % 2 == 0 ? el.toLowerCase() : el.toUpperCase();
     }).join('');
